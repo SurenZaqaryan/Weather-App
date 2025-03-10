@@ -1,0 +1,24 @@
+.days_container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.days_wrapper {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.day {
+  cursor: pointer;
+  width: 150px;
+  height: 80px;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

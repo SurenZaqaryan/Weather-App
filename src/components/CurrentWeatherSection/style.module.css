@@ -1,0 +1,42 @@
+.current_weather_section_container {
+  display: flex;
+  justify-content: center;
+}
+
+.current_weather_section_wrapper {
+  margin-top: 60px;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  gap: 100%;
+  align-items: center;
+}
+
+.current_weather_section_left_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 120px;
+  gap: 10px;
+}
+
+.current_weather_main {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+}
+
+.current_weather_section_right_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hourly_static_row {
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
